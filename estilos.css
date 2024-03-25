@@ -1,0 +1,69 @@
+header {
+    background-color: #0b0a0a;
+    text-align: center;
+    font-size: 30px;
+    padding: 40px 0;
+
+}
+body{
+    background-color: aqua;
+}
+
+h1 {
+    color: #f5f1f1;
+}
+
+.paCentrar {
+    width: 25%;
+    /* Ancho deseado del div */
+    margin-left: auto;
+    margin-right: auto;
+    
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+
+
+
+}
+
+h2 {
+    color: #0b0a0a;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.circulo {
+    height: 300px;
+    width: 300px;
+    background-color: #68c47a;
+    border-radius: 50%;
+    border-color: #0b0a0a;
+    border: 2px solid black;
+}
+
+button {
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    background: rgb(8, 2, 19);
+    border: 4px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    background-color: #0b0a0a;
+    color: #f5f2f2;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+}
